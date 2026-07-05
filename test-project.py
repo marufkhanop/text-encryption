@@ -13,4 +13,4 @@ def test_encrypt():
 def test_dicrypt():
     test_key = original_siq[::-1]
     assert dicrypt(test_key[0], test_key) == "a"
-    
+    assert dicrypt("$", test_key) == "$"
