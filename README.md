@@ -12,3 +12,5 @@ requirements.txt: This just tells Python what extra tools need to be installed.S
 My design choices While making this,I had to figure out what to do if someone typed a weird symbol that isn't in my alphabet string (like a # or a @).then I decided it was best to just leave those characters exactly as they are and skip over them,and not causing the program to crash or throw an error.
 
 I also added a quick safety check when you try to decrypt a message.If you paste a key that is too short or too long, the program will immediately stop and say "Invalid key" instead of trying to run it and breaking halfway through.
+
+
